@@ -116,6 +116,7 @@ p{
 }
 .con_cover:hover{
     background-color: rgba(0,0,0,0.5);
+    border: solid 1px rgba(255,255,255,0.7);
 
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
