@@ -9,6 +9,11 @@ body{
     margin:0;
     font-family: 'Code Light';
 }
+@media screen and (max-width: 599px) { 
+    body{
+        background-image: url();
+    }
+}
 
 .cover{
     background-color: rgba(255,255,255,0.3);
@@ -111,7 +116,6 @@ p{
         height:200px;
         width: 300px;
         display: block;
-        text-align: center;
     }
 }
 
@@ -131,7 +135,6 @@ p{
         height:200px;
         width: 300px;
         display: block;
-        text-align: center;
     }
 }
 
