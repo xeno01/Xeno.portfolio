@@ -110,6 +110,8 @@ p{
     .con_block{
         height:200px;
         width: 300px;
+        display: block;
+        text-align: center;
     }
 }
 
@@ -128,6 +130,8 @@ p{
     .con_cover{
         height:200px;
         width: 300px;
+        display: block;
+        text-align: center;
     }
 }
 
