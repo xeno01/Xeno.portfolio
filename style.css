@@ -1,22 +1,23 @@
-body{
+body {
     background-color: black;
     color: white;
-    background-image: url(img/back.jpg);
+    background-image: url(img/back.png);
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    background-attachment:fixed;
+    background-attachment: fixed;
     background-size: cover;
-    margin:0;
+    margin: 0;
     font-family: 'Code Light';
 }
-@media screen and (max-width: 599px) { 
-    body{
+
+@media screen and (max-width: 599px) {
+    body {
         background-image: url();
     }
 }
 
-.cover{
-    background-color: rgba(255,255,255,0.3);
+.cover {
+    background-color: rgba(255, 255, 255, 0.3);
     background-position: 50% 50%;
     background-size: cover;
     -webkit-background-size: cover;
@@ -24,168 +25,178 @@ body{
     -o-background-size: cover;
     background-size: cover;
     height: 100%;
-    background-repeat:repeat-y;
+    background-repeat: repeat-y;
     overflow: hidden;
 }
 
-header{
+header {
     width: 100vw;
-    height:100px;
-    background-color: rgba(0,0,0,0.5);
-    color: rgba(255,255,255,1);
-    font-size:40px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 1);
+    font-size: 40px;
     text-align: center;
-    padding-top:40px;
+    padding-top: 40px;
     transition: all .3s ease;
 }
-header:hover{
-    background-color: rgba(0,0,0,0.7);
+
+header:hover {
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
-.header{
+.header {
     text-align: right;
     vertical-align: middle;
     text-align: center;
     padding: 10px;
 }
 
-.git_con{
-    border-radius:  110px;
+.git_con {
+    border-radius: 110px;
     width: 30px;
     height: 30px;
-  transition:all 0.5s;
-}
-.git_con:hover{
-  -webkit-transform: scale(1.3);
-  -ms-transform: scale(1.3);
-  transform: scale(1.1);
-  transition:all 0.3s;
+    transition: all 0.5s;
 }
 
-.tw_share{
+.git_con:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.tw_share {
     float: right;
 }
 
-.message{
+.message {
     font-family: sans-serif;
     text-align: center;
 }
 
-p{
+p {
     border-bottom: 1px solid white;
 }
 
-.content{
+.content {
     text-align: center;
 }
 
-.con_block{
-    height:200px;
+.con_block {
+    height: 200px;
     width: 350px;
     border-radius: 10px;
     display: inline-block;
     text-decoration: none;
     border: none;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     font-weight: bold;
-    margin:30px;
+    margin: 30px;
     text-align: left;
     display: inline-block;
     text-decoration: none;
     border: none;
-   transition:all 0.3s;
+    transition: all 0.3s;
 }
-.con_block:hover{
+
+.con_block:hover {
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
     transform: scale(1.1);
 }
-@media screen and (max-width: 599px) { 
-    .con_block{
-        height:200px;
+
+@media screen and (max-width: 599px) {
+    .con_block {
+        height: 200px;
         width: 300px;
         display: block;
     }
 }
 
-.con_cover{
-    height:200px;
+.con_cover {
+    height: 200px;
     width: 350px;
     border-radius: 10px;
     display: inline-block;
     text-decoration: none;
     border: none;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     font-weight: bold;
-    transition:all 0.3s;
+    transition: all 0.3s;
 }
-@media screen and (max-width: 599px) { 
-    .con_cover{
-        height:200px;
+
+@media screen and (max-width: 599px) {
+    .con_cover {
+        height: 200px;
         width: 300px;
         display: block;
     }
 }
 
-.con_cover:hover{
-    background-color: rgba(0,0,0,0.5);
-    border: solid 1px rgba(255,255,255,0.7);
+.con_cover:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: solid 1px rgba(255, 255, 255, 0.7);
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
     transform: scale(1.1);
 }
 
-h1{
+h1 {
     padding-left: 30px;
     color: white;
 }
 
-h2{
-    color: rgba(255,255,255,0.8);
+h2 {
+    color: rgba(255, 255, 255, 0.8);
     font-size: 12px;
-    text-align:right;
+    text-align: right;
     padding-right: 10px;
-    padding-top:70px;
+    padding-top: 70px;
 }
 
-.con_1{
-    background-image: url(img/1.jpg);
-    background-size: 350px;
-}
-.con_2{
-    background-image: url(img/2.jpg);
-    background-size: 350px;
-}
-.con_3{
-    background-image: url(img/3.jpg);
-    background-size: 350px;
-}
-.con_4{
-    background-image: url(img/back.jpg);
-    background-size: 350px;
-}
-.con_5{
-    background-image: url(img/5.jpg);
+.con_1 {
+    background-image: url(img/1.png);
     background-size: 350px;
 }
 
-.contact{
-    background-color: rgba(255,0,0,0.7);
+.con_2 {
+    background-image: url(img/2.png);
+    background-size: 350px;
+}
+
+.con_3 {
+    background-image: url(img/3.png);
+    background-size: 350px;
+}
+
+.con_4 {
+    background-image: url(img/back.png);
+    background-size: 350px;
+}
+
+.con_5 {
+    background-image: url(img/5.png);
+    background-size: 350px;
+}
+
+.contact {
+    background-color: rgba(255, 0, 0, 0.7);
     color: white;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
     vertical-align: middle;
-    transition:all 0.3s;
+    transition: all 0.3s;
 }
-.contact:hover{
-    background-color: rgba(255,0,0,0.9);
+
+.contact:hover {
+    background-color: rgba(255, 0, 0, 0.9);
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
     transform: scale(1.1);
 }
 
-#contact{
+#contact {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -193,43 +204,43 @@ h2{
     display: inline;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-#img_contact{
+#img_contact {
     height: 25px;
     width: 25px;
     vertical-align: middle;
-    margin-bottom:3px;
-    filter:invert();
+    margin-bottom: 3px;
+    filter: invert();
 }
 
-footer{
+footer {
     font-family: 'arial';
     font-size: 10px;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     color: white;
-    position: fixed !important;  
-    position: absolute;  
-    bottom: 0;  
-    left: 0;  
-    width: 100%;  
-    height:20px;
+    position: fixed !important;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
     text-align: center;
-    padding-top:8px;
+    padding-top: 8px;
 }
 
-font{
+font {
     vertical-align: middle;
 }
 
-.xeno{
-    background-color: rgba(255,255,255,0.5);
-    color: rgba(0,0,0,0.6);
+.xeno {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.6);
     text-align: left;
     font-family: 'Courier New', Courier, monospace;
-    padding:30px;
+    padding: 30px;
     vertical-align: middle;
     width: 100vw;
     display: inline-block;
@@ -239,62 +250,66 @@ font{
     text-align: left;
 }
 
-#xeno{
+#xeno {
     height: 150px;
     width: 150px;
     text-align: left;
     border-radius: 0px;
-    padding-left:20px;
+    padding-left: 20px;
     padding-right: 20px;
-    vertical-align:middle;
+    vertical-align: middle;
 }
 
-h3{
-    display:inline-block;
-    vertical-align:middle;
+h3 {
+    display: inline-block;
+    vertical-align: middle;
 }
 
-li a{
-    color: rgba(255,255,255,0.8);
+li a {
+    color: rgba(255, 255, 255, 0.8);
 }
-li a:hover{
+
+li a:hover {
     text-decoration: underline;
-    color: rgba(255,0,0,0.7);
+    color: rgba(255, 0, 0, 0.7);
 }
 
-ul, ol{
+ul,
+ol {
     padding: 0;
 }
+
 ul li {
     position: relative;
     list-style-type: none!important;
     padding: 0.5em 0.5em 0.5em 0.5em;
     margin-bottom: 5px;
     line-height: 1.5;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
     vertical-align: middle;
-    color: rgba(255,255,255,0.8);
+    color: rgba(255, 255, 255, 0.8);
     border-radius: 15px 0px 0px 15px;
-    width:400px;
-    transition:all 0.3s;
+    width: 400px;
+    transition: all 0.3s;
 }
 
-li:hover{
-    width:500px;
-    background: rgba(0,0,0,0.8);
-    color: rgba(255,255,255,1);
+li:hover {
+    width: 500px;
+    background: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 255, 255, 1);
 }
-ul li:before{ 
-    display:inline-block; 
+
+ul li:before {
+    display: inline-block;
     vertical-align: middle;
-    content:'';
-    width:1em;
+    content: '';
+    width: 1em;
     height: 1em;
-    background: rgba(255,0,0,0.7);
+    background: rgba(255, 0, 0, 0.7);
     border-radius: 50%;
     margin-right: 8px;
 }
 
-ul{
-    padding-left:200px;
+ul {
+    padding-left: 200px;
 }
